@@ -1,0 +1,8 @@
+<%= form_tag('/') do %>
+  <%= select_tag "crypto", options_for_select(@array), class: 'form-control'%>
+  <%= submit_tag "Valider", class: "btn btn-large btn-primary" %>
+<% end %>
+
+<% if @name %>
+  <h2><%= @name %> : <%= @rate %></h2>
+<% end %>
