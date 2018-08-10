@@ -1,4 +1,4 @@
-# Movie searcher - projet THP 10 août 2018
+# Scrapper du turfu - projet THP 10 août 2018
 
 ## L'application
 
