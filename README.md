@@ -1,24 +1,23 @@
-# README
+# Movie searcher - projet THP 10 août 2018
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## L'application
 
-Things you may want to cover:
+### En local
 
-* Ruby version
+Après avoir cloné le repo, run :
 
-* System dependencies
+- `bundle install`
 
-* Configuration
+- `rails db:migrate`
 
-* Database creation
+### Heroku
 
-* Database initialization
+Vous trouverez l'application hébergée sur Heroku au lien suivant : https://crypto-scrapper-thp.herokuapp.com/
 
-* How to run the test suite
+## Le projet
 
-* Services (job queues, cache servers, search engines, etc.)
+Application qui scrappe le site https://coinmarketcap.com/all/views/all/ pour récupérer le cours actuel de 50 cryptomonnaies (nombre réduit par souci de rapidité) et permet à l'internaute de choisir la monnaie qui l'intéresse
 
-* Deployment instructions
+## La team
 
-* ...
+Ce programme est made in Strasbourg, by Soraya FRUCTUOSO, Samaneh VAEZI et Hugo PAYET avec amour ! Bonne correction les amis :kissing_heart:

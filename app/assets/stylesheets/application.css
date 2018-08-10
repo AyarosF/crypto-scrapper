@@ -12,4 +12,36 @@
  *
  *= require_tree .
  *= require_self
+ *= require bootstrap.css
  */
+
+h1 {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+span {
+  font-size: 25px;
+}
+
+#crypto {
+  color: rgb(8, 135, 139)
+}
+
+.formulaire {
+  margin: 50px 300px 0 300px;
+}
+
+.btn {
+  margin-top: 30px;
+}
+
+h6 {
+  text-align: center;
+  padding-top: 40px;
+}
+
+#name, #rate {
+  color: rgb(185, 118, 40);
+}
