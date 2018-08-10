@@ -26,7 +26,7 @@ span {
 }
 
 #crypto {
-  color: rgb(8, 135, 139)
+  color: rgb(177, 72, 84);
 }
 
 .formulaire {
@@ -44,4 +44,19 @@ h6 {
 
 #name, #rate {
   color: rgb(185, 118, 40);
+}
+
+.footer {
+  position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    color: white;
+    background-color: rgb(31, 164, 101);
+    text-align: center;
+}
+
+#footertext {
+  padding-top: 6px;
 }
